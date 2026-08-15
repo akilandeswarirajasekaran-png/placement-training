@@ -1,0 +1,82 @@
+.communication-container{
+    min-height:100vh;
+    background:#f4f7fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial,sans-serif;
+}
+
+.communication-card{
+    width:750px;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.1);
+}
+
+.communication-card h1{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:25px;
+}
+
+.question-box{
+    background:#eef4ff;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:25px;
+}
+
+.question-box h2{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.record-buttons{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.record-buttons button,
+.audio-section button,
+.navigation-buttons button{
+
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.record-buttons button:hover,
+.audio-section button:hover,
+.navigation-buttons button:hover{
+
+    background:#1d4ed8;
+}
+
+.audio-section{
+    margin-bottom:25px;
+}
+
+.audio-section audio{
+    width:100%;
+    margin-bottom:15px;
+}
+
+.navigation-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.message{
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+    color:green;
+}

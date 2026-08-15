@@ -1,0 +1,58 @@
+.results-container{
+    min-height:100vh;
+    background:#f4f7fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial,sans-serif;
+}
+
+.results-card{
+    width:800px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.1);
+}
+
+.results-card h1{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:30px;
+}
+
+.score-box{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.score-item{
+    background:#eef4ff;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+}
+
+.score-item h3{
+    color:#2563eb;
+}
+
+.score-item p{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.overall-score{
+    margin-top:35px;
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+}
+
+.overall-score h2{
+    font-size:38px;
+    margin-top:10px;
+}

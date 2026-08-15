@@ -1,0 +1,92 @@
+.dashboard-container {
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f4f7fb;
+  font-family:Arial, sans-serif;
+}
+
+
+.dashboard-card {
+
+  width:500px;
+  padding:40px;
+  background:white;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 8px 25px rgba(0,0,0,0.1);
+
+}
+
+
+.dashboard-card h1 {
+
+  color:#2563eb;
+}
+
+
+.dashboard-card h2 {
+
+  margin-top:10px;
+}
+
+
+.dashboard-card p {
+
+  color:#555;
+}
+
+
+.company {
+
+  margin:20px;
+  padding:10px;
+  background:#eef2ff;
+  border-radius:8px;
+
+}
+
+
+.dashboard-buttons {
+
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  margin-top:25px;
+
+}
+
+
+.dashboard-buttons button {
+
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#2563eb;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+
+}
+
+
+.dashboard-buttons button:hover {
+
+  background:#1d4ed8;
+
+}
+
+
+.dashboard-buttons .logout {
+
+  background:#dc2626;
+
+}
+
+
+.dashboard-buttons .logout:hover {
+
+  background:#b91c1c;
+
+}
